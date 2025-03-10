@@ -1,0 +1,1 @@
+Olá Mae. Essa nota foi criada pelo terminal do Node.js

@@ -1,0 +1,31 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;Teste HTML Escaper&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Bem-vindo ao teste de HTML Escaper!&lt;/h1&gt;
+    &lt;p&gt;
+      Este é um exemplo de conteúdo simples para você testar seu HTML escaper.
+    &lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Item 1&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Item 2&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://example.com" target="_blank"&gt;Item 3 com link&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;pre&gt;
+        &amp;lt;div&amp;gt;Código HTML como texto&amp;lt;/div&amp;gt;
+    &lt;/pre&gt;
+
+    &lt;footer&gt;
+      &lt;p&gt;
+        Teste feito por
+        &lt;a href="https://github.com/Yago" target="_blank"&gt;Yago&lt;/a&gt;.
+      &lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
