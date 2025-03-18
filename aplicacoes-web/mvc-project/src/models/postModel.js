@@ -29,6 +29,7 @@ const postModel = {
   getAllPosts() {
     return posts;
   },
+
   getPostById(id) {
     return posts.find((post) => post.id === id);
   },
@@ -43,6 +44,7 @@ const postModel = {
     };
     return post;
   },
+
   savePost(post) {
     posts.unshift(post);
   },
@@ -51,8 +53,9 @@ const postModel = {
     const index = posts.findIndex((post) => post.id === id);
     posts[index] = { ...posts[index], ...updatedPost, updatedAt: new Date() };
   },
+
   deletePost(id) {
-    posts = posts.filter((posts) => post.id !== id);
+    posts = posts.filter((post) => post.id !== id);
   },
 };
 
